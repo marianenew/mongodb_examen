@@ -1,0 +1,3 @@
+use("supermercado")
+
+db.products.find({ fecha_vencimiento: { $gt: "new Date(2024, 10, 30)" } })

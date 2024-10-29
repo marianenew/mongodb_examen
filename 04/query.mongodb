@@ -1,0 +1,7 @@
+db.inventario.updateMany({fecha_vencimiento: { $gt: "new Date(2024, 10, 30)" } },{
+    $push:{
+      oferta:"oferta"
+        
+      
+    }
+  })
